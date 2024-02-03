@@ -1,0 +1,9 @@
+{
+	"name": "cesarsiesquenballena",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "ed80b549-8a4a-4346-a721-b23434e3b15b",
+		"tenantId": "52146d83-e3fb-4796-ad7a-e97efe3f781f"
+	}
+}

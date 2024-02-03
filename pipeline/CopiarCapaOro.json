@@ -1,0 +1,30 @@
+{
+	"name": "CopiarCapaOro",
+	"properties": {
+		"activities": [
+			{
+				"name": "CopiarCapaOro",
+				"type": "DatabricksNotebook",
+				"dependsOn": [],
+				"policy": {
+					"timeout": "0.12:00:00",
+					"retry": 0,
+					"retryIntervalInSeconds": 30,
+					"secureOutput": false,
+					"secureInput": false
+				},
+				"userProperties": [],
+				"typeProperties": {
+					"notebookPath": "/Users/cesarsiesquen27@gmail.com/TransferirDatosACapaOro"
+				},
+				"linkedServiceName": {
+					"referenceName": "AzureDatabricks_DataFActory",
+					"type": "LinkedServiceReference"
+				}
+			}
+		],
+		"annotations": [],
+		"lastPublishTime": "2024-02-03T03:20:10Z"
+	},
+	"type": "Microsoft.DataFactory/factories/pipelines"
+}
